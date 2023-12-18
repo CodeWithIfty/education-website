@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+
 /* CSS Reset */
 html,
 body,
@@ -11,10 +13,27 @@ body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+/* Color Variables */
+:root {
+  --primary: #f27a44;
+  --black: #262626;
 }
 
 /* Basic Styles */
 .container {
   width: 80%;
   margin: 0 auto;
+}
+
+/* Shared Styles */
+.button {
+  background-color: var(--primary);
+  padding: 16px 32px;
+  border-radius: 30px;
+  border: none;
+  color: white;
+  font-size: 16px;
 }

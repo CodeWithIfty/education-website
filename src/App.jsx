@@ -1,8 +1,10 @@
+import Navbar from "./components/Navbar/Navbar";
+
 function App() {
   return (
-    <>
-      <h1>Education Website</h1>
-    </>
+    <div>
+      <Navbar />
+    </div>
   );
 }
 
