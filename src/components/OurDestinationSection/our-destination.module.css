@@ -1,7 +1,7 @@
 .destinationSection {
   width: 80%;
   margin: 0 auto;
-  padding:  40px 0;
+  padding: 40px 0;
 }
 
 .cardContainer::-webkit-scrollbar {
@@ -61,7 +61,7 @@
   font-size: 20px;
 }
 
-/* Navbar Responsive styles */
+/* Destination Responsive styles */
 @media only screen and (max-width: 768px) {
   .destinationSection {
     width: 90%;
