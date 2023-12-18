@@ -37,6 +37,8 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 .image-container {
   width: 40%;
@@ -52,6 +54,7 @@
   }
   .text-container {
     width: 100%;
+    margin-top: 150px;
   }
   .hero-section {
     background-image: none;
@@ -59,6 +62,20 @@
   .hero-container {
     justify-content: center;
     align-items: center;
+  }
+  .text-container p {
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  .text-container p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .text-container h1 {
+    font-size: 60px;
+    line-height: 55px;
   }
 }
 
@@ -68,6 +85,6 @@
     line-height: 55px;
   }
   .hero-section {
-    height: 80vh;
+    height: 60vh;
   }
 }

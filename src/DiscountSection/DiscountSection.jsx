@@ -1,22 +1,27 @@
 import style from "./discount-section.module.css";
 const DiscountSection = () => {
   return (
-    <section className={`container ${style.discountContainer}`}>
-      {/* Text Container */}
-      <div className={style.text_container}>
-        <h4>Discover the beauty of the tropics</h4>
-        <h1>
-          Tropical Destinations <span>For Student</span>
-        </h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur. Sit mattis donec mi bibendum
-          integer rutrum nisi. A nec nisl vitae{" "}
-        </p>
-        <button className="button"> SIGN UP</button>
-      </div>
-      {/* Image Container */}
-      <div className={style.image_container}>
-        <img src="/images/Mask group.png" alt="" />
+    <section className={`${style.discountContainer}`}>
+      <div className={`container  ${style.discountWrapper}`}>
+        {/* Text Container */}
+        <div className={style.text_container}>
+          <h5>Get 20% off for student</h5>
+          <h4>
+            Student discounts available. <br />
+            <span>Get ready for some fun in the sun!</span>
+          </h4>
+          <ul>
+            <li>Lorem ipsum dolor sit amet</li>
+            <li>Massa quis natoque sit quam</li>
+            <li>tortor id euismod habitant</li>
+            <li>Sed suspendisse id in ultrices</li>
+          </ul>
+          <button className="button"> Explore More</button>
+        </div>
+        {/* Image Container */}
+        <div className={style.image_container}>
+          <img src="/images/Mask group.png" alt="" />
+        </div>
       </div>
     </section>
   );

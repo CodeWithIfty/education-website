@@ -5,6 +5,7 @@
   margin-top: 70px;
   text-align: center;
   flex-wrap: wrap;
+  gap: 20px;
 }
 
 .card {
@@ -17,7 +18,7 @@
 
 .avatar {
   width: 50%;
-  margin-bottom: 45px;
+  margin-bottom: 30px;
   border-bottom: 2px solid var(--black);
   display: flex;
   flex-direction: column;
