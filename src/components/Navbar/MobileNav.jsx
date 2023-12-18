@@ -1,8 +1,7 @@
 import { useState } from "react";
 import { CiMenuFries } from "react-icons/ci";
 import { RxCross2 } from "react-icons/rx";
-import RightMenuButton from "./RightMenuButton";
-
+import PropTypes from "prop-types";
 const MobileNav = ({ links }) => {
   const [open, setOpen] = useState(false);
 
@@ -33,3 +32,7 @@ const MobileNav = ({ links }) => {
 };
 
 export default MobileNav;
+
+MobileNav.propTypes = {
+  links: PropTypes.array,
+};

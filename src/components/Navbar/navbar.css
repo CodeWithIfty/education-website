@@ -2,8 +2,9 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 29px;
+  height: 80px;
   background-color: white;
+  margin: 0px 20px;
 }
 
 .nav-items {
@@ -36,7 +37,7 @@
   display: none;
 }
 .menu-icon {
-  font-size: 24px;
+  font-size: 20px;
 }
 .mobile-nav-container {
   position: absolute;
