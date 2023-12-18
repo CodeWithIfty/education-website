@@ -4,6 +4,7 @@ import HeroSection from "./components/HeroSection/HeroSection";
 import Navbar from "./components/Navbar/Navbar";
 import OurDestinationSection from "./components/OurDestinationSection/OurDestinationSection";
 import StudentReviewSection from "./components/StudentReviewSection/StudentReviewSection";
+import TestimonialsSection from "./components/TestimonialsSection/TestimonialsSection";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <OurDestinationSection />
       <DiscountSection />
       <BookNowSection />
+      <TestimonialsSection />
     </div>
   );
 }
