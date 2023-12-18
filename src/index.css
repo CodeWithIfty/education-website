@@ -40,7 +40,13 @@ body {
   background-color: var(--primary);
   padding: 16px 32px;
   border-radius: 30px;
-  border: none;
+  border: transparent;
   color: white;
   font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: black;
+  transition: all ease-in-out 0.2s;
 }

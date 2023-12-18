@@ -1,5 +1,6 @@
 import HeroSection from "./components/HeroSection/HeroSection";
 import Navbar from "./components/Navbar/Navbar";
+import OurDestinationSection from "./components/OurDestinationSection/OurDestinationSection";
 import StudentReviewSection from "./components/StudentReviewSection/StudentReviewSection";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <Navbar />
       <HeroSection />
       <StudentReviewSection />
+      <OurDestinationSection />
     </div>
   );
 }
