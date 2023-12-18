@@ -1,0 +1,62 @@
+.discountContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url("/images/hero-bg1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.text_container {
+  width: 40%;
+}
+.text_container h4 {
+  padding: 0;
+  margin: 0;
+}
+.text_container h1 {
+  font-size: 80px;
+  padding: 0;
+  margin: 0;
+  font-style: normal;
+  line-height: 85px;
+}
+.text_container h1 span {
+  font-weight: 200;
+}
+.text_container p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.image_container {
+  width: 40%;
+}
+.image_container img {
+  width: 500px;
+}
+
+/* Discount Section Responsive styles */
+@media only screen and (max-width: 1024px) {
+  .image_container {
+    display: none;
+  }
+  .text_container {
+    width: 100%;
+  }
+  .discountContainer {
+    background-image: none;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .text_container h1 {
+    font-size: 40px;
+    line-height: 55px;
+  }
+  .discountContainer {
+    height: 60vh;
+  }
+}

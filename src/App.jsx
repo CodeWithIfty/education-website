@@ -1,3 +1,4 @@
+import DiscountSection from "./DiscountSection/DiscountSection";
 import HeroSection from "./components/HeroSection/HeroSection";
 import Navbar from "./components/Navbar/Navbar";
 import OurDestinationSection from "./components/OurDestinationSection/OurDestinationSection";
@@ -10,6 +11,7 @@ function App() {
       <HeroSection />
       <StudentReviewSection />
       <OurDestinationSection />
+      <DiscountSection />
     </div>
   );
 }

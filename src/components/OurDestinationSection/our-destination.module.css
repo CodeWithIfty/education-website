@@ -1,7 +1,7 @@
 .destinationSection {
   width: 80%;
   margin: 0 auto;
-  height: 100vh;
+  padding:  40px 0;
 }
 
 .cardContainer::-webkit-scrollbar {
