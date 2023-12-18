@@ -1,5 +1,6 @@
 import DiscountSection from "./DiscountSection/DiscountSection";
 import BookNowSection from "./components/BookNowSection/BookNowSection";
+import Footer from "./components/Footer/Footer";
 import HeroSection from "./components/HeroSection/HeroSection";
 import Navbar from "./components/Navbar/Navbar";
 import OurDestinationSection from "./components/OurDestinationSection/OurDestinationSection";
@@ -16,6 +17,7 @@ function App() {
       <DiscountSection />
       <BookNowSection />
       <TestimonialsSection />
+      <Footer />
     </div>
   );
 }
