@@ -1,0 +1,81 @@
+.section-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 150px 0px;
+}
+.reviews-container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.card-container {
+  background-color: white;
+  display: flex;
+  width: 330px;
+  padding: 20px;
+  align-items: center;
+  gap: 15px;
+  border-radius: 30px;
+  box-shadow: 0px 0px 44px -33px;
+}
+
+.card-container img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+}
+
+.review-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.review-text-container h3 {
+  font-size: 50px;
+  line-height: 40px;
+}
+.review-text-container h3 span {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.review-text-container p {
+  font-weight: bold;
+  margin-top: 10px;
+}
+.review-text-container ul {
+  margin-left: 20px;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 20px;
+}
+
+.review-text-container button {
+  margin-top: 50px;
+}
+
+/* Student Review Section Responsive styles */
+@media only screen and (max-width: 1024px) {
+  .section-wrapper {
+    flex-direction: column-reverse;
+    gap: 20px;
+    padding: 100px 0px;
+  }
+  .review-text-container {
+    align-items: center;
+  }
+  .review-text-container h3 {
+    text-align: center;
+  }
+  .card-container {
+    margin-top: 50px;
+  }
+  .reviews-container {
+    gap: 10px;
+  }
+}
