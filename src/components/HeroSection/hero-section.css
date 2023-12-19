@@ -1,6 +1,6 @@
 .hero-section {
   background: rgba(248, 241, 211, 0.25);
-  height: calc(100vh - 80px);
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: start;
@@ -10,7 +10,7 @@
   background-size: cover;
 }
 .hero-container {
-  height: 70%;
+  /* height: 70%; */
   display: flex;
   justify-content: space-around;
   align-items: end;
@@ -49,13 +49,33 @@
 
 /* Hero Section Responsive styles */
 @media only screen and (max-width: 1024px) {
-  .image-container {
+  /* .image-container {
     display: none;
+  } */
+
+  .hero-section {
+    align-items: start;
+    height: 100vh;
+  }
+  .hero-container {
+    /* height: 50%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+  .image-container {
+    width: 100%;
+  }
+  .image-container img {
+    width: 300px;
   }
   .text-container {
     width: 100%;
-    margin-top: 150px;
+    /* margin-top: 150px; */
   }
+
   .hero-section {
     background-image: none;
   }
@@ -82,9 +102,6 @@
 @media only screen and (max-width: 425px) {
   .text-container h1 {
     font-size: 40px;
-    line-height: 55px;
-  }
-  .hero-section {
-    height: 60vh;
+    line-height: 45px;
   }
 }
